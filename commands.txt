@@ -1,0 +1,39 @@
+The below commands are for node file
+
+first execute below command to build the image
+
+docker build -t <anyname of your image>:<tag you need> .
+
+
+
+Below commands go to hello-world-go folder using cd command and execute below command
+
+you should be able to see below file strcuture when you execute ls -lrt
+
+ls -lrt
+total 24
+-rw-r--r--  1 admin  staff  720 17 Sep 20:47 Dockerfile
+-rwxr-xr-x  1 admin  staff   78 17 Sep 20:47 build.sh
+-rwxr-xr-x  1 admin  staff   98 17 Sep 20:47 start.sh
+drwxr-xr-x  3 admin  staff   96 17 Sep 20:47 src
+
+once you find it and you are in correct directory execute below
+
+docker build -t <anyname of your image>:<tag> .
+
+once you executed correctly
+
+check using below command
+
+docker images 
+
+you should see the image you created
+
+
+docker run -it -p <portof your wish>:8080 <yourimage name>:<tag>
+
+
+open your webbrowser
+
+localhost:<port your specified in above command>
+

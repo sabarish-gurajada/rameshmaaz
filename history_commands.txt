@@ -1,0 +1,49 @@
+admin@users-MacBook-Air hello-world-go % history -100 | grep docker
+  955  docker images
+  956  docker rmi -f 80e28a8df4d4
+  957  docker images
+  958  docker build -t sabarishg/hemaz:latest .
+  959  docker run sabarishg/hemaz:latest
+  960  docker images
+  961  docker rmi -f 183a5b519074
+  962  docker rmi -f e470bc4a5978
+  963  docker images
+  964  docker rmi -f 183a5b519074
+  965  docker ps
+  972  docker build gohello .
+  973  docker build -t gohello:latest .
+  974  docker images
+  976  docker images
+  977  docker run -it -p 9091:8080 gohello
+  978  docker run -it -p 9092:8080 gohello
+  979  docker build -t sabarishg/gohello:latest .
+  980  docker images
+  981  docker push sabarishg/gohello
+  982  docker images
+  983  docker rmi -f $(docker images -a -q)
+  984  docker ps
+  985  docker images
+  986  docker ps
+  987  docker pull sabarishg/ninjatest:latest
+  988  docker images
+  989  docker rmi -f 800363c19ae6
+  990  docker images
+  991  docker pull sabarishg/ninjatest:latest
+  992  docker images
+  993  docker run sabarishg/ninjatest:latest
+  994  docker run -it sabarishg/ninjatest:latest
+  995  docker run -it -p 8088:3000 sabarishg/ninjatest:latest
+  996  docker images
+  997  docker rmi -f 800363c19ae6
+  998  docker ps
+  999  docker images
+ 1008  docker build -t sabarishg/hellodevops:latest .
+ 1010  docker build -t sabarishg/hellodevops:latest .
+ 1011  docker images
+ 1012  docker image ls
+ 1014  docker run sabarishg/hellodevops
+ 1015  docker run sabarishg/hellodevops
+ 1017  docker build -t sabarishg/hellodevops:latest .
+ 1018  docker images
+ 1019  docker run sabarishg/hellodevops
+ 1035  docker images
